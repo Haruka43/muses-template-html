@@ -65,15 +65,15 @@ figure#logo {
 }
 /*ここまで平*/
 #upper_menu div:nth-child(1) {
-  background-color: #ef8683;
+  background-color: white;
 }
 
 #upper_menu div:nth-child(2) {
-  background-color: #ffff91;
+  background-color: white;
 }
 
 #upper_menu div:nth-child(3) {
-  background-color: #ef86bd;
+  background-color: white;
 }
 
 #news {
