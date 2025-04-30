@@ -6,9 +6,6 @@
 body {
   box-sizing: border-box;
   background-image: url('img/mwu.jpeg');
-  background-size: cover; /* 背景画像をボックスに合わせて拡大縮小 */
-  background-repeat: no-repeat; /* 繰り返しを防ぐ */
-  background-position: center; /* 中央に配置 */
   width: 430px;
   border: solid lightgray 1px;
   margin: 0;
