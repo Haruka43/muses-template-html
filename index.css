@@ -105,10 +105,10 @@ figure#logo {
   display: flex;
   gap: 1.5rem;
 }
-
+/*白い文字*/
 #link div {
   width: fit-content;
-  color: red;
+  color: white;
   background-color: var(--bg-color);
   padding: 0.5rem 2rem;
   margin-left: 0.5rem;
