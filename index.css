@@ -108,7 +108,7 @@ figure#logo {
 
 #link div {
   width: fit-content;
-  color: white;
+  color: red;
   background-color: var(--bg-color);
   padding: 0.5rem 2rem;
   margin-left: 0.5rem;
