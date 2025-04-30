@@ -64,6 +64,7 @@ figure#logo {
   margin: 0;
 }
 /*ここまで平*/
+/*上部アイコンの背景色*/
 #upper_menu div:nth-child(1) {
   background-color: white;
 }
