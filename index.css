@@ -63,7 +63,7 @@ figure#logo {
 #upper_menu p {
   margin: 0;
 }
-
+/*ここまで平*/
 #upper_menu div:nth-child(1) {
   background-color: #ef8683;
 }
@@ -124,7 +124,7 @@ header p:last-child {
   margin-left: 0.5rem;
   padding-left: 0.5rem;
 }
-
+/*ここまで中村*/
 main#top {
   display: flex;
   flex-wrap: wrap;
@@ -188,3 +188,4 @@ footer p {
   height: 5rem;
   background-color: white;
 }
+/*ここまで井堂*/
