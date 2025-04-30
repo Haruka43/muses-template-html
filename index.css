@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-image: url('img/mwu.jpeg');
+  background-image: url("img/mwu.jpeg");
   width: 430px;
   border: solid lightgray 1px;
   margin: 0;
