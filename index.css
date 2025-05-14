@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-image: url('img/mwu.jpeg');
+  background-image: url("img/mwu.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +188,7 @@ footer p {
 }
 
 #information {
-  border: solid 1px #feb64a;
+  border: solid 1px #000000;
   border-radius: 0.5rem;
   height: 5rem;
   background-color: white;
