@@ -7,7 +7,7 @@ main#info {
 :is(#info_header, #info_footer) {
   padding: 0.5rem;
   color: white;
-  background-color: gray;
+  background-color: #555555;
 }
 
 #caution {
