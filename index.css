@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-image: url('img/mwu.jpeg');
+  background-image: url("img/mwu.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
