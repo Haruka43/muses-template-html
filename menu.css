@@ -4,6 +4,12 @@ main#info {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.toroku {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: white;
+}
+
 :is(#info_header, #info_footer) {
   padding: 0.5rem;
   color: white;
@@ -119,4 +125,10 @@ main#info {
   border-radius: 50%;
   color: #33485e;
   margin-left: 0.5rem;
+}
+
+.infomation {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: white;
 }
