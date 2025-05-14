@@ -13,7 +13,8 @@ main#info {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.2;
-  color: white;
+  color: #44077d;
+  background-color: white;
   border-top: solid 0.2rem #808080;
   border-bottom: solid 0.2rem #808080;
   padding: 0.5rem 2rem;
