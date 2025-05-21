@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-image: url('img/mwu.jpeg');
+  background-color: #ffd8f1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,6 +15,15 @@ body {
   margin: 0;
   padding: 0.5rem;
 }
+
+#lavy {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  z-index: 10;
+}
+
 /*こんにちは*/
 header {
   margin-bottom: 2rem;
