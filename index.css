@@ -128,6 +128,25 @@ figure#logo {
 header p:last-child {
   margin-left: 0.5rem;
   padding-left: 0.5rem;
+  background-color: rgba(240, 240, 240, 0.8);
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #44077d;
+  border-radius: 0.5rem;
+  border-top: solid 0.2rem #808080;
+  border-bottom: solid 0.2rem #808080;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: white;
+  border: solid 0.5rem #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0.5rem 1rem;
+  background-color: white;
+  margin: 0.5rem 0;
 }
 /*ここまで中村*/
 main#top {
