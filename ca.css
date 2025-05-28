@@ -42,12 +42,13 @@ main#info {
 
 #top {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  grid-template-columns: repeat(2, 1fr); /* 2列固定 */
   grid-template-rows: repeat(2, auto); /* 2行 */
-  gap: 1rem; /* 要素間の余白（調整可能） */
+  gap: 1rem;
   padding: 1rem;
-  justify-items: center; /* 中央寄せ（任意） */
-  text-align: center; /* テキストも中央揃えに */
+  max-width: 600px; /* ← 幅制限で並びを守る */
+  margin: 0 auto; /* 中央寄せ */
+  text-align: center;
 }
 
 .record {
