@@ -40,6 +40,16 @@ main#info {
   padding: 0.5rem;
 }
 
+#top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  grid-template-rows: repeat(2, auto); /* 2行 */
+  gap: 1rem; /* 要素間の余白（調整可能） */
+  padding: 1rem;
+  justify-items: center; /* 中央寄せ（任意） */
+  text-align: center; /* テキストも中央揃えに */
+}
+
 .record {
   display: grid;
   grid-template-columns: 2rem 1fr 1fr 1fr 1rem;
