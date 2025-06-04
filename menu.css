@@ -73,11 +73,12 @@ main#info {
   grid-template-rows: 1fr 1fr;
   align-items: center;
 }
-.record2 {
+#info_list > .record2 {
   display: grid;
   grid-template-columns: 2rem 1fr 1fr 1fr 1rem;
   grid-template-rows: 1fr 1fr;
   align-items: center;
+  background-color: #f0f0f0;
 }
 
 .date {
