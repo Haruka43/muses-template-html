@@ -24,10 +24,6 @@ main#info {
   background-color: #555555;
 }
 
-#info_header > .touroku {
-  color: #000000;
-}
-
 #caution {
   font-size: 1.2rem;
   font-weight: bold;
