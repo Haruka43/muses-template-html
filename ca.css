@@ -42,12 +42,20 @@ main#info {
 
 #top {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列固定 */
-  grid-template-rows: repeat(2, auto); /* 2行 */
+  grid-template-columns: repeat(2, auto); /* 中身に合わせた2列 */
+  grid-auto-rows: auto;
   gap: 1rem;
+  justify-content: center; /* 横方向の中央揃え */
+  align-content: center; /* 縦方向の中央揃え（必要なら） */
   padding: 1rem;
-  max-width: 600px; /* ← 幅制限で並びを守る */
-  margin: 0 auto; /* 中央寄せ */
+  text-align: center;
+}
+
+#top > div {
+  background-color: white;
+  padding: 1rem;
+  min-width: 120px;
+  min-height: 80px;
   text-align: center;
 }
 
