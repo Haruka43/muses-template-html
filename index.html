@@ -7,7 +7,22 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <img src="img/lavy.png" alt="ラビーちゃん" id="lavy" />
+    <div class="scroll-top">
+  <div class="ing-wrapper">
+    <img src="img/lavy.png" alt="ラビーちゃん" id="lavy" lazy="loaded" />
+  </div>
+</div>
+
+<!-- JavaScriptを追加 -->
+<script>
+  document.getElementById("lavy").addEventListener("click", function () {
+    this.src = "img/lavysabun.png";
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
     <header>
       <figure id="logo">
         <img src="img/logo.png" />
