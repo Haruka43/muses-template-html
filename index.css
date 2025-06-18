@@ -166,7 +166,6 @@ main#top {
   color: black;
   margin-bottom: 2rem;
   margin-left: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 :is(#upper_menu, main#top) a {
