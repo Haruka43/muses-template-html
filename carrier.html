@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MUSESメニュー</title>
     <link href="index.css" rel="stylesheet" />
-    <link href="carrier.css" rel="stylesheet" />
+    <link href="menu.css" rel="stylesheet" />
   </head>
   <body>
-  <img src="img/lavy.png" alt="ラビーちゃん" id="lavy" />
     <header>
+      <div class="scroll-top">
+  <div class="ing-wrapper">
+    <img src="img/lavy_!.png" alt="ラビーちゃん" id="lavy" lazy="loaded" />
+  </div>
+</div>
+<script>
+  document.getElementById("lavy").addEventListener("click", function () {
+    this.src = "img/lavy_kuroba.png";
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
       <figure id="logo">
         <img src="img/logo.png" />
       </figure>
