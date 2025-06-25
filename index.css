@@ -80,14 +80,20 @@ figure#logo {
 /*上部アイコンの背景色*/
 #upper_menu div:nth-child(1) {
   background-color: white;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 #upper_menu div:nth-child(2) {
   background-color: white;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 #upper_menu div:nth-child(3) {
   background-color: white;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 #news {
