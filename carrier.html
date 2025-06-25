@@ -47,38 +47,35 @@
       <div id="info_link">
         <div id="unread_num"><span class="exmark">!</span>：未読(3件)</div>
         <div id="info_list">
-          <div class="record">
-            <div class="date">202x/04/20</div>
-            <div class="from">
-              キャリアセンター<br />
-              鳴尾　アリス
-            </div>
-            <div class="imp">★重要★</div>
-            <div class="tri">&nbsp;</div>
-            <div class="mark"><span class="exmark">!</span></div>
-            <div class="subject">学内合同企業説明会について</div>
-          </div>
-          <div class="record">
-            <div class="date">202x/04/16</div>
-            <div class="from">キャリアセンター</div>
-            <div class="imp"></div>
-            <div class="tri">&nbsp;</div>
-            <div class="mark"><span class="exmark">!</span></div>
-            <div class="subject">オープンカンパニー募集のお知らせ</div>
-          </div>
-          <div class="record">
-            <div class="date">2024/04/09</div>
-            <div class="from">
-              社会情報学部　社会情報学科<br />
-              尾関　基行
-            </div>
-            <div class="imp">［広報］</div>
-            <div class="tri">&nbsp;</div>
-            <div class="mark"><span class="exmark">!</span></div>
-            <div class="subject">
-              キャリア支援について
-            </div>
-          </div>
+          <script>
+          // JSONファイルを読み込み
+          fetch('data.json')
+          .then(res => res.json())
+          .then(data => {
+            const container = document.getElementById('info_list');
+                data.list2.forEach((item, index) => {
+                  // record1 / record2 / record3... を順に付ける
+                  const recordClass = `record${(index % 3) + 1}`;
+
+                  const div = document.createElement('div');
+                  div.className = recordClass;
+
+                  div.innerHTML = `
+                    <div class="date">${item.date}</div>
+                    <div class="from">${item.from}</div>
+                    <div class="imp">${item.imp}</div>
+                    <div class="tri">&nbsp;</div>
+                    ${item.imp ? '<div class="mark"><span class="exmark">!</span></div>' : ''}
+                    <div class="subject">${item.subject}</div>
+                  `;
+
+                  container.appendChild(div);
+                });
+              })
+              .catch(err => {
+                console.error('読み込みエラー:', err);
+              });
+          </script>
         </div>
       </div>
       <div id="control">
